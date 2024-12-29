@@ -28,7 +28,7 @@ class DashboardBlocView extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: const <Widget>[
-                  Icon(Icons.circle, size: 48),
+                  Icon(Icons.circle, size: 48, color: Colors.blue), // Set color here
                   Text('Area of Circle BLoC'),
                 ],
               ),
@@ -42,7 +42,7 @@ class DashboardBlocView extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: const <Widget>[
-                  Icon(Icons.calculate, size: 48),
+                  Icon(Icons.calculate, size: 48, color: Colors.green), // Set color here
                   Text('Simple Interest BLoC'),
                 ],
               ),
@@ -56,7 +56,7 @@ class DashboardBlocView extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: const <Widget>[
-                  Icon(Icons.person, size: 48),
+                  Icon(Icons.person, size: 48, color: Colors.orange), // Set color here
                   Text('Student BLoC'),
                 ],
               ),
